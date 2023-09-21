@@ -35,7 +35,7 @@ class _FlutterCameraCropState extends State<CameraCrop> {
   void initState() {
     super.initState();
     // initialize for camera
-    controller = CameraController(widget.camera, ResolutionPreset.max);
+    controller = CameraController(widget.camera, ResolutionPreset.medium);
     controller.initialize().then((_) {
       if (!mounted) {
         return;

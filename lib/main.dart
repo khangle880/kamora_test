@@ -71,6 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
               shape: BoxShape.circle,
             ),
             padding: const EdgeInsets.all(16),
+            margin: const EdgeInsets.only(bottom: 16),
             child: const Icon(
               Icons.camera,
               size: 30,
